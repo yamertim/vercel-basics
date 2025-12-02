@@ -10,6 +10,7 @@ root.render(
     <App />
   </React.StrictMode>
 );
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
@@ -26,4 +27,5 @@ function App() {
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
 
