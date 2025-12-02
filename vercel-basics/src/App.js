@@ -96,3 +96,4 @@ export default function App() {
     </div>
   );
 }
+import { SpeedInsights } from "@vercel/speed-insights/react"
